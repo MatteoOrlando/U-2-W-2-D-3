@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(137, 155, 149);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav img {
+  width: 50px;
+  border-radius: 20%;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+}
+nav ul li {
+  margin-right: 10px;
+}
+nav ul a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+}
+#buttons button.first {
+  cursor: pointer;
+  color: white;
+  background-color: #0e6cff;
+}
+#buttons button.first:hover {
+  color: black;
+  background-color: rgb(228, 222, 223);
+}
+#buttons button.second {
+  cursor: pointer;
+  color: rgb(247, 247, 247);
+  background-color: #ff8700;
+}
+#buttons button.second:hover {
+  color: black;
+  background-color: rgb(228, 222, 223);
+}
+#buttons button.third {
+  cursor: pointer;
+  color: rgb(247, 247, 247);
+  background-color: #4caf50;
+}
+#buttons button.third:hover {
+  color: black;
+  background-color: rgb(228, 222, 223);
+}
+
+.fourImage {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.animatedImage {
+  animation: goDown 5s ease-in-out;
+  position: relative;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes goDown {
+  from {
+    top: -700px;
+    opacity: 1;
+  }
+  to {
+    top: 0px;
+  }
+}/*# sourceMappingURL=app.css.map */
